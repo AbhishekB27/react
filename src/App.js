@@ -1,11 +1,9 @@
-import Card from "./components/Card";
+import { Nav } from "./components/Nav";
 
 function App() {
   return (
-    <div className="">
-      <Card size='4'/>
-    </div>   
-  );
+    <Nav/>
+    );
 }
 
 export default App;
