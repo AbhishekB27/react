@@ -37,7 +37,8 @@ module.exports = {
         }
       },
       fontFamily:{
-        poppins:['Poppins','sans-serif']
+        poppins:['Poppins','sans-serif'],
+        Edu_VIC_WA_NT_Beginner:['Edu VIC WA NT Beginner', 'cursive']
       }
     },
     screens:{
@@ -47,6 +48,9 @@ module.exports = {
       'lg':'1024px',
       'xl':'1280px',
       '2xl':'1536px'
+    },
+    boxShadow: {
+      'my-shadow':'0.5px 0.5px 8.5px 2px rgba(192, 38, 211, 0.32)'
     },
   },
   plugins: [Myclass],
