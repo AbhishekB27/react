@@ -1,30 +1,7 @@
-// import { Hamburger } from "./components/Hamburger";
-// import { Nav } from "./components/Nav";
-// import axios from 'axios';
-// import { useEffect, useState } from 'react';
 import "./App.css";
 import { RecipeApp } from "./components/Recipe/RecipeApp";
 
 function App() {
-  // const [data, setdata] = useState([])
-  // const getData = async ()=>{
-  //   try {
-  //     const url = 'https://api.sampleapis.com/codingresources/codingResources'
-  //   const response = await axios.get(url)
-  //   const data = response.data
-  //   data.map(res=>{
-  //     console.log(res.url)
-  //   })
-  //   setdata(data)
-  //   } catch (error) {
-  //     console.log(error.message)
-  //   }
-  // }
-  // useEffect(() => {
-  //   getData()
-  //   return () => {
-  //   }
-  // },[])
 
   return (
     <div className="">

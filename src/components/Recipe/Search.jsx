@@ -1,5 +1,4 @@
 import {
-  faCross,
   faMultiply,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";

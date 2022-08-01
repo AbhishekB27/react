@@ -4,22 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import food from "./images/strawBerry.jpg";
 export const RecipeCard = ({ name, recipeImg, type, link }) => {
-  // console.log(type.cusine.toUpperCase())
   const [loader, setloader] = useState(true);
   setTimeout(() => {
     setloader(false)
   }, 2500);
-  const myStyle = {
-    backgroundImage: `url('${food}')`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-  };
+
   return (
     <div className="w-[360px] h-[470px] rounded-2xl bg-transparent overflow-hidden font-poppins shadow-my-shadow">
       <div className="relative overflow-hidden h-[240px]">
         <div className="absolute w-full h-full px-4 py-2 bg-fuchsia-500 text-fuchsia-100 overflow-scroll overflow-x-hidden">
-          {/* <div className="font-semibold text-xl">Igredients:-</div> */}
           <div className="text-xl font-medium flex flex-col justify-center items-center h-full">
             {loader ? (
               <div className="w-[80px] h-[80px] rounded-full bg-transparent border-[5px] border-slate-300 border-t-slate-600 animate-spin"></div>
